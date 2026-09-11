@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/zana-logo.jpg.asset.json";
+import logo from "@/assets/zana-logo.jpg";
 
 const nav = [
   { to: "/", label: "الرئيسية" },
@@ -25,7 +25,7 @@ export function SiteHeader() {
             className="size-11 rounded-2xl object-cover shadow-soft"
           />
           <span className="flex flex-col leading-tight">
-            <span className="font-display text-xl text-primary">منصة زانا</span>
+            <span className="font-display text-xl text-primary">زانا التعليمية</span>
             <span className="text-[11px] tracking-[0.3em] text-muted-foreground">
               PLATFORM
             </span>
