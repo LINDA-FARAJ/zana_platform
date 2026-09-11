@@ -18,7 +18,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="شعار منصة زانا التعليمية"
             width={48}
             height={48}
